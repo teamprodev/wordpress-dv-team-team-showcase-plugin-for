@@ -1,0 +1,74 @@
+.dvinput {
+    font-family: system-ui;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 1px solid #757575;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #000;
+    display: block;
+    margin: 0;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1;
+    min-height: 30px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.dvinput:focus {
+    border: 1px solid #000;
+    box-shadow: none;
+    outline: 2px solid transparent;
+}
+i.mce-i-icon {
+	font: 400 20px/1 dashicons;
+	padding: 0;
+	vertical-align: top;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin-left: -2px;
+	padding-right: 2px
+}
+i.dvteam-i-icon {
+    font: 400 20px/1 dashicons;
+    padding: 0;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: 5px;
+    padding-right: 5px;
+    color: #333;
+    margin-top: -2px;
+    display: inline-block;
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
+.dvthumb {
+    width: 60px !important;
+    height: auto !important;
+    border-radius:4px;
+}
+#dvourteam_thumb {
+    width: 60px !important;
+}
+.cmb-td > .regular-text, .cmb2-textarea-small, .cmb2-textarea-code{
+    width: 100% !important;
+}
+.column-dvourteam_id textarea {
+    width:100%;
+    height:60px;
+}
+
+@media only screen and (max-width: 782px) {
+    #dvourteam_thumb,.dvourteam_thumb,.wp-list-table .is-expanded td:not(.hidden).dvourteam_thumb  {
+        display:none !important;
+    }
+    .column-dvourteam_id textarea {
+        font-size:12px
+    }
+}
